@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dog Walking & Care Services</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      color: #333;
+      background-color: #fafafa;
+    }
+    header {
+      background: linear-gradient(135deg, #6fb1fc, #4364f7);
+      color: white;
+      padding: 80px 20px;
+      text-align: center;
+    }
+    header h1 {
+      font-size: 42px;
+      margin-bottom: 10px;
+    }
+    header p {
+      font-size: 18px;
+      max-width: 600px;
+      margin: auto;
+    }
+    section {
+      padding: 60px 20px;
+      max-width: 900px;
+      margin: auto;
+    }
+    h2 {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+    .services {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+    .card {
+      background: white;
+      padding: 25px;
+      border-radius: 12px;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+      text-align: center;
+    }
+    .card h3 {
+      margin-bottom: 10px;
+    }
+    .contact-form {
+      max-width: 500px;
+      margin: auto;
+      background: white;
+      padding: 30px;
+      border-radius: 12px;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+    }
+    input, textarea {
+      width: 100%;
+      padding: 12px;
+      margin-bottom: 15px;
+      border-radius: 6px;
+      border: 1px solid #ccc;
+      font-size: 14px;
+    }
+    button {
+      width: 100%;
+      padding: 14px;
+      background: #4364f7;
+      color: white;
+      border: none;
+      border-radius: 6px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+    button:hover {
+      background: #3651d4;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #f0f0f0;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Dog Walking & Care</h1>
+  <p>Reliable, loving, and professional dog services you can trust.</p>
+</header>
+
+<section>
+  <h2>Our Services</h2>
+  <div class="services">
+    <div class="card">
+      <h3>Dog Walking</h3>
+      <p>Personalized walks to keep your dog healthy and happy.</p>
+      <p><strong>$20</strong> per 20 minutes</p>
+    </div>
+    <div class="card">
+      <h3>Dog Sitting</h3>
+      <p>24-hour in-home or overnight care for your peace of mind.</p>
+      <p><strong>$43</strong> for 24-hour stay</p>
+    </div>
+    <div class="card">
+      <h3>Home Visits</h3>
+      <p>Two visits per day at times that work best for you and your pet.</p>
+      <p><strong>$35</strong> for 2 visits per day<br />
+      <span style="font-size:14px; color:#666;">Extra visits: $10 per visit</span></p>
+    </div>
+    <div class="card">
+      <h3>Doggy Daycare</h3>
+      <p>A safe, fun, and caring environment during the day.</p>
+      <p><strong>$37</strong> for 8 hours<br />
+      <span style="font-size:14px; color:#666;">$10 extra per additional hour</span></p>
+    </div>
+  </div>
+</section>
+
+<section>
+  <h2>Gallery & Reviews</h2>
+  <div class="services">
+    <div class="card">
+      <h3>Happy Moments</h3>
+      <p>Add photos of your walks, happy dogs, and daily adventures here.</p>
+      <p style="font-size: 14px; color: #666;">(You can replace this text with images later)</p>
+    </div>
+    <div class="card">
+      <h3>Client Reviews</h3>
+      <p>“Reliable, caring, and amazing with our dog. Highly recommended!”</p>
+      <p style="font-weight: bold; margin-top: 10px;">– Happy Client</p>
+    </div>
+  </div>
+</section>
+
+<section>
+  <h2>Contact Me</h2>
+  <div class="contact-form">
+    <form action="https://formsubmit.co/your@email.com" method="POST">
+      <input type="text" name="name" placeholder="Your Name" required />
+      <input type="email" name="email" placeholder="Your Email" required />
+      <textarea name="message" rows="5" placeholder="Tell me about your dog and what you need" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </div>
+</section>
+
+<footer>
+  © 2025 Dog Walking & Care Services
+</footer>
+
+</body>
+</html>
